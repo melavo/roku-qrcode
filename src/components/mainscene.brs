@@ -46,20 +46,7 @@ sub dismissDialog()
     handled = false
     ? " key= "; key; " press= "; press
     if press then
-        if key = "down"
-          if m.selectedObj = "txtQRCode"
-           m.doneButton.setFocus(true)
-           m.selectedObj = "btGenerate"
-           m.txtQRCode.active=false
-          end if
-        else if key = "up"
-          if m.selectedObj = "btGenerate"
-            m.selectedObj = "txtQRCode"
-            m.txtQRCode.setFocus(true)
-            m.txtQRCode.active=true
-          end if
-        
-        else if key = "OK"
+        if key = "OK"
           if m.selectedObj = "txtQRCode"
             setUpEditText()
             m.keyboardDialog.visible=true
