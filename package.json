@@ -1,0 +1,13 @@
+{
+  "name": "QRCode",
+  "version": "1.0.0",
+  "description": "QrCode",
+  "scripts": {
+    "build": "bsc",
+    "package": "bsc --create-package"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "brighterscript": "^0.57.0"
+  }
+}

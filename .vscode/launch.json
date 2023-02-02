@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "",
+            "password": "",
+            "rootDir": "${workspaceFolder}/src",
+            "stopOnEntry": false,
+            "preLaunchTask": "build",
+            "retainStagingFolder": false,
+            "enableDebuggerAutoRecovery": false,
+            "stopDebuggerOnAppExit": false
+        }
+    ]
+}

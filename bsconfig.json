@@ -1,0 +1,10 @@
+{
+    "rootDir": "src",
+    "files": [
+        "**/*"
+    ],
+    "stagingFolderPath": "dist",
+    "retainStagingFolder": true,
+    "autoImportComponentScript": false,
+    "sourceMap": true
+}
